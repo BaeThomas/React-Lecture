@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+img {
+  width: 40%;
+  border-radius: 20px;
+}
+
+h3 {
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.btnContainer {
+  margin-top: 20px;
+  display: flex;
+}
+
+.btn {
+  background-color: #00b7ff;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+/* Topping Styles */
+.toppingimg {
+  margin: 0 10px;
+  cursor: pointer;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.topping {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.topping h1 {
+  margin-bottom: 20px;
+}
+
+.btnyes {
+  background-color: #96ae9c;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.btnno {
+  background-color: #96ae9c;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+/* Continue Button */
+.nextBTN {
+  background-color: #00b7ff;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.nextBTN:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+/* Vouncher Styles */
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.divlist {
+  border-bottom: #00b7ff 2px solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.vouncher {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.vouncher h1 {
+  margin-bottom: 20px;
+}

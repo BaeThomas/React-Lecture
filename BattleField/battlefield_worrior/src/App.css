@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/background/intro.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* This is Go Crad Into */
+.gocard {
+  display: flex;
+  width: 100vw;
+}
+
+.innergo {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/public/background/Go.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-items: center;
+  border-radius: 20px;
+}
+
+.innergo:hover {
+  background-image: url("/public/background/Go.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.text {
+  margin-top: 310px;
+  color: aliceblue;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.goBtn {
+  margin-top: 15px;
+}
+
+.goBtn button {
+  width: 100px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+  background-color: greenyellow;
+}
+
+.goBtn button:hover {
+  width: 110px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(152, 242, 16);
+}
+
+/* Hero Cover Start By Now */
+
+.upperherocontainer {
+  margin-left: 14rem;
+  width: 54rem;
+  height: 6rem;
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  display: flex;
+}
+
+.herocard {
+  width: 18rem;
+  height: 6rem;
+}
+
+.hero-img.active {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 70% 35%;
+  opacity: 1;
+}
+.hero-img.inactive {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 70% 35%;
+  opacity: 0.3;
+}
+
+/* The Animation is start from here */
+
+.Anime {
+  width: 54rem;
+  height: 20rem;
+  background-color: aliceblue;
+  margin-left: 14rem;
+}

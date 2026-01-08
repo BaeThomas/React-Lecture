@@ -5,6 +5,9 @@ export const worriors = [
     power: 1000,
     price: 20,
     img: "barbar.jpg",
+    ani: "bar.gif",
+    def: "A fearless melee fighter with decent health, used in swarms to overwhelm defense",
+    card: "barcard.jpg",
   },
   {
     id: 2,
@@ -12,6 +15,9 @@ export const worriors = [
     power: 900,
     price: 25,
     img: "arar.jpg",
+    ani: "ar.gif",
+    def: "A ranged unit that shoots over walls, ideal for picking off exposed targets",
+    card: "arcard.jpg",
   },
   {
     id: 3,
@@ -19,5 +25,8 @@ export const worriors = [
     power: 2000,
     price: 40,
     img: "drdr.jpg",
+    ani: "dr.gif",
+    def: "A powerful flying troop with splash damage, capable of attacking both air and ground units",
+    card: "darcard.jpg",
   },
 ];
